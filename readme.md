@@ -1,4 +1,4 @@
-# Binding not working in winrt c++ desktop
+# Binding does not work in winrt c++ desktop
 
 binding code in cpp.
 
@@ -37,4 +37,4 @@ namespace App1
 
 ```
 
-if I add `Dynamic` property in `MainWindow` idl file , it's working.  otherwise if I comment `Dynamic` property, the binding will don't work. maybe `biding2.Path(PropertyPath(L"Value"));` has inernal bug. and if i remove binding path set . it's also works fine. 
+if I add `Dynamic` property in `MainWindow` idl file , this works fine.  otherwise if I comment `Dynamic` property, the binding will don't work. maybe `biding2.Path(PropertyPath(L"Value"));` has inernal bug. and if i remove binding path set, it's also works fine. 
