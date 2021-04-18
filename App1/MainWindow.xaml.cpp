@@ -54,7 +54,7 @@ namespace winrt::App1::implementation
 
 			biding2.Source(dynamic2);
 			biding2.Path(PropertyPath(L"Value"));
-        Hd().SetBinding(Hd().TextProperty(), biding2);
+            Hd().SetBinding(Hd().TextProperty(), biding2);
         }
 #endif // 0
     }
