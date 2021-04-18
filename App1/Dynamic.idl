@@ -1,0 +1,13 @@
+namespace App1
+{
+    [default_interface]
+    runtimeclass Dynamic : Microsoft.UI.Xaml.DependencyObject,/*[default]*/ Microsoft.UI.Xaml.Data.IValueConverter
+    {
+        Dynamic(String text);
+
+        String Text;
+        String ValueText;
+        Boolean IsDynamic;
+
+    }
+}
